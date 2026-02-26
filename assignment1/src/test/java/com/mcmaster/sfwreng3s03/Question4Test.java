@@ -25,7 +25,7 @@ public class Question4Test {
         assertEquals(-3.0, calculator.divide(9.0, -3.0), "9 / -3 = -3.0");
     }
 
-    // Improved Test Suite (2)
+    // Improved Test Suite (2 more tests)
 
     @Test
     public void testDivisionByZero() {
