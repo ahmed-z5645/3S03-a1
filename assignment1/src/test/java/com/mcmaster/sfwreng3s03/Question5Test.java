@@ -103,4 +103,21 @@ public class Question5Test {
         assertEquals(5, item.getQuantity());
         assertEquals(10.0, item.getTotalPrice(), 0.001);
     }
+
+    // --- PricingService Specific Coverage ---
+
+    @Test
+    void testPricing_CalculateTaxZero() {
+        PricingService ps = new PricingService();
+        // Tests the (subtotal == 0) branch; should return 0 without calculating
+        assertEquals(0, ps.calculateTax(0), "Tax on zero subtotal should be zero");
+    }
+
+    @Test
+    void testPricing_CalculateTaxNegative() {
+        PricingService ps = new PricingService();
+        // Tests the (subtotal < 0) branch; should throw IllegalArgumentException
+        assertThrows(IllegalArgumentException.class, () -> ps.calculateTax(-1.0), 
+            "Negative subtotal should trigger an exception");
+    }
 }

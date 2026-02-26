@@ -7,11 +7,11 @@ public class OrderItem {
     private final double unitPrice;
 
 <span class="fc" id="L9">    public OrderItem(String name, int quantity, double unitPrice) {</span>
-<span class="pc bpc" id="L10" title="1 of 2 branches missed.">        if (quantity &lt;= 0) {</span>
-<span class="nc" id="L11">            throw new IllegalArgumentException(&quot;Quantity must be positive&quot;);</span>
+<span class="fc bfc" id="L10" title="All 2 branches covered.">        if (quantity &lt;= 0) {</span>
+<span class="fc" id="L11">            throw new IllegalArgumentException(&quot;Quantity must be positive&quot;);</span>
         }
-<span class="pc bpc" id="L13" title="1 of 2 branches missed.">        if (unitPrice &lt; 0) {</span>
-<span class="nc" id="L14">            throw new IllegalArgumentException(&quot;Unit price cannot be negative&quot;);</span>
+<span class="fc bfc" id="L13" title="All 2 branches covered.">        if (unitPrice &lt; 0) {</span>
+<span class="fc" id="L14">            throw new IllegalArgumentException(&quot;Unit price cannot be negative&quot;);</span>
         }
 <span class="fc" id="L16">        this.name = name;</span>
 <span class="fc" id="L17">        this.quantity = quantity;</span>
@@ -23,7 +23,7 @@ public class OrderItem {
     }
 
     public int getQuantity() {
-<span class="nc" id="L26">        return quantity;</span>
+<span class="fc" id="L26">        return quantity;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>
