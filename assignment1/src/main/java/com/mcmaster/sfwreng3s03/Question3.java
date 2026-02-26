@@ -7,15 +7,15 @@ public class Question3 implements CatanAgent {
     @Override public void init(int playerId) {}
 
     @Override public Move chooseInitialSettlement(GameState state) {
-        return new Move("Settlement", 0); // Always picks first available
+        return new Move("Settlement", 0); // Assuming we need an argument for the position
     }
 
     @Override public Move chooseInitialRoad(GameState state) {
-        return new Move("Road", 0);
+        return new Move("Road", 0); // Assuming we need an argument for the position
     }
 
     @Override public Move chooseMove(GameState state) {
-        return new Move("Pass", 0);
+        return new Move("Pass"); 
     }
 
     @Override public Map<ResourceType, Integer> chooseDiscard(GameState state, int discardCount) {
@@ -23,7 +23,7 @@ public class Question3 implements CatanAgent {
     }
 
     @Override public ResourceType chooseResource(GameState state) {
-        return ResourceType.WOOD; // Static resource choice
+        return ResourceType.WOOD;
     }
 
     @Override public int chooseRobberTarget(GameState state, List<Integer> possibleTargets) {
