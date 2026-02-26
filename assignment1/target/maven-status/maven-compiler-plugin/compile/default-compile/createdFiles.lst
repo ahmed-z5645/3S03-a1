@@ -1,1 +1,8 @@
 com/mcmaster/sfwreng3s03/Question4.class
+com/mcmaster/sfwreng3s03/question5/DiscountService.class
+com/mcmaster/sfwreng3s03/question5/OrderItem.class
+com/mcmaster/sfwreng3s03/question5/PaymentValidator.class
+com/mcmaster/sfwreng3s03/question5/OrderStatus.class
+com/mcmaster/sfwreng3s03/question5/OrderService.class
+com/mcmaster/sfwreng3s03/question5/Order.class
+com/mcmaster/sfwreng3s03/question5/PricingService.class

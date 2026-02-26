@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mcmaster.sfwreng3s03.Question4Test" time="0.249" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mcmaster.sfwreng3s03.question5.Question5Test" time="0.276" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -52,8 +52,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testSimpleDivision" classname="com.mcmaster.sfwreng3s03.Question4Test" time="0.139"/>
-  <testcase name="testNegativeDivision" classname="com.mcmaster.sfwreng3s03.Question4Test" time="0.004"/>
-  <testcase name="testDivisionByZero" classname="com.mcmaster.sfwreng3s03.Question4Test" time="0.01"/>
-  <testcase name="testDecimalDivision" classname="com.mcmaster.sfwreng3s03.Question4Test" time="0.005"/>
+  <testcase name="testOrder_StateLockdown" classname="com.mcmaster.sfwreng3s03.question5.Question5Test" time="0.02"/>
+  <testcase name="testPayment_UnsupportedMethod" classname="com.mcmaster.sfwreng3s03.question5.Question5Test" time="0.011"/>
+  <testcase name="testDiscount_InvalidCode" classname="com.mcmaster.sfwreng3s03.question5.Question5Test" time="0.007"/>
+  <testcase name="testProcessOrder_SuccessfulCardPayment" classname="com.mcmaster.sfwreng3s03.question5.Question5Test" time="0.004"/>
+  <testcase name="testProcessOrder_InvalidPaymentCancellation" classname="com.mcmaster.sfwreng3s03.question5.Question5Test" time="0.006"/>
+  <testcase name="testDiscount_CodeBranches(String)[1]" classname="com.mcmaster.sfwreng3s03.question5.Question5Test" time="0.069"/>
+  <testcase name="testDiscount_CodeBranches(String)[2]" classname="com.mcmaster.sfwreng3s03.question5.Question5Test" time="0.003"/>
+  <testcase name="testDiscount_CodeBranches(String)[3]" classname="com.mcmaster.sfwreng3s03.question5.Question5Test" time="0.001"/>
 </testsuite>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mcmaster.sfwreng3s03.question5.Question5Test
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.276 s -- in com.mcmaster.sfwreng3s03.question5.Question5Test
