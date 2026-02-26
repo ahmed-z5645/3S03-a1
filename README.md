@@ -8,3 +8,4 @@ Ensure you have **Maven** and **JDK 21** installed on your system.
 From the root directory of the `assignment1` project, run:
 ```bash
 mvn clean compile
+mvn test
